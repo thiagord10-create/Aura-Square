@@ -1,7 +1,7 @@
 # Aura-Square
 Landing page conceitual de um smartwatch standalone com Android nativo, desenvolvida como projeto de estudo prático para consolidar o módulo de HTML5 e CSS3 do curso de Programador Web no IFF.
 
-Veja o projeto rodando ao vivo: [Link do seu CodePen ou Netlify]
+Veja o projeto rodando ao vivo: [https://thiagord10-create.github.io/Aura-Square/]
 
 Tecnologias e Conceitos Aplicados
 Este projeto foi construído do zero, priorizando boas práticas de mercado, acessibilidade e design responsivo:
