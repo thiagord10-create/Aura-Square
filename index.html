@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>AuraSquare | O Smartphone no seu Pulso</title>
+    <style>
+        /* CSS Premium Dark Mode */
+        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0a0a0a; color: #f5f5f7; margin: 0; padding: 0; }
+        
+        /* Cabeçalho */
+        header { background-color: #000; padding: 60px 20px; text-align: center; border-bottom: 1px solid #333; }
+        header h1 { margin: 0; font-size: 3.5em; letter-spacing: -2px; color: #fff; }
+        header p { font-size: 1.3em; color: #a1a1a6; max-width: 600px; margin: 15px auto 0; }
+        .highlight { color: #2997ff; font-weight: bold; }
+        
+        /* Menu Fixo */
+        nav { background-color: rgba(0, 0, 0, 0.8); padding: 15px; text-align: center; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(10px); border-bottom: 1px solid #222;}
+        nav a { color: #f5f5f7; text-decoration: none; margin: 0 20px; font-weight: 500; font-size: 0.95em; transition: color 0.3s; }
+        nav a:hover { color: #2997ff; }
+
+        /* Efeito Parallax */
+        .parallax {
+            background-image: url('https://i.postimg.cc/15VJRB9S/Gemini-Generated-Image-mryfxrmryfxrmryf.png');
+            height: 400px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #222;
+        }
+
+        .parallax-texto {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px 40px;
+            border-radius: 10px;
+            font-size: 2em;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 1px solid rgba(41, 151, 255, 0.3);
+        }
+
+        /* Animação de Flutuação */
+        @keyframes flutuar {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .relogio-animado {
+            animation: flutuar 4s ease-in-out infinite;
+            border-radius: 12px;
+            filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.8));
+            width: 80%;
+            max-width: 500px;
+        }
+
+        /* Layout Principal */
+        main { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        section { background-color: #151516; padding: 40px; margin-bottom: 40px; border-radius: 18px; border: 1px solid #222; }
+        h2 { color: #fff; font-size: 2em; margin-top: 0; border-bottom: 1px solid #333; padding-bottom: 15px; }
+        h3 { color: #2997ff; }
+        figure { margin: 50px 0; text-align: center; }
+        figcaption { font-size: 0.9em; color: #888; margin-top: 25px; }
+        
+        /* Tabelas e Formulários */
+        table { width: 100%; border-collapse: collapse; margin-top: 25px; }
+        th, td { border: 1px solid #333; padding: 18px; text-align: left; }
+        th { background-color: #222; color: #fff; }
+        fieldset { border: 1px solid #444; border-radius: 10px; margin-bottom: 25px; padding: 25px; background-color: #1a1a1a; }
+        legend { background-color: #2997ff; color: #fff; padding: 6px 16px; border-radius: 20px; font-weight: bold; font-size: 0.9em; }
+        input[type="text"], input[type="email"], select, textarea { width: 100%; padding: 14px; margin-top: 10px; background-color: #0a0a0a; border: 1px solid #444; color: #fff; border-radius: 8px; box-sizing: border-box; font-family: inherit; }
+        input[type="text"]:focus, input[type="email"]:focus, textarea:focus { outline: none; border-color: #2997ff; }
+        input[type="radio"] { margin-right: 10px; transform: scale(1.2); }
+        button { background-color: #f5f5f7; color: #000; border: none; padding: 16px 32px; font-size: 1.1em; border-radius: 30px; cursor: pointer; transition: 0.3s; font-weight: bold; width: 100%; margin-top: 10px; }
+        button:hover { background-color: #2997ff; color: #fff; }
+        footer { background-color: #000; color: #666; text-align: center; padding: 40px; font-size: 0.9em; border-top: 1px solid #222; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AuraSquare <span style="color: #2997ff;">Pro</span></h1>
+        <p>Um smartphone completo debaixo da sua manga. Design quadrado moderno, <span class="highlight">Android nativo</span> e bateria que não te abandona.</p>
+    </header>
+
+    <nav>
+        <a href="#inovacao">Inovação</a>
+        <a href="#specs">Especificações</a>
+        <a href="#reserva">Lista de Espera</a>
+    </nav>
+
+    <div class="parallax">
+        <div class="parallax-texto">Potência em Cada Pixel</div>
+    </div>
+
+    <main>
+        <section id="inovacao">
+            <h2>O Fim da Dependência</h2>
+            <p>Esqueça o bluetooth. O AuraSquare Pro possui slot para chip e roda Android nativo. Faça tudo o que você faz no seu celular, direto no seu pulso.</p>
+            
+            <figure>
+                <img src="https://i.postimg.cc/02CrSR5N/Gemini-Generated-Image-pujraepujraepujr-removebg-preview.png" alt="AuraSquare Pro flutuando" class="relogio-animado">
+                <figcaption>Design retangular com lente embutida, maximizando a área de toque e visualização.</figcaption>
+            </figure>
+
+            <hr style="border: 0; height: 1px; background: #333; margin: 40px 0;">
+            
+            <h3>Recursos de um Verdadeiro Smartphone</h3>
+            
+            <video width="100%" controls muted autoplay loop style="border-radius: 12px; margin-bottom: 20px; border: 1px solid #333;">
+                <source src="https://www.dropbox.com/scl/fi/v1y3j9wgn0vvwadnn2lum/Cinematic_macro_shot_of_a_slee.mp4?rlkey=w87k5uaiz9kl5psnb4ei21osp&st=2imxuukt&raw=1" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+            
+            <dl>
+                <dt><strong>Câmera Frontal Integrada</strong></dt>
+                <dd>Lente HD perfeitamente embutida na moldura superior. Participe de videochamadas ou grave vídeos diretamente do pulso sem adaptações.</dd>
+                
+                <dt><strong>Google Play Store Liberada</strong></dt>
+                <dd>Baixe WhatsApp, Spotify, Uber e qualquer outro aplicativo nativamente. A experiência completa do Android na sua tela.</dd>
+                
+                <dt><strong>Liberdade 4G/5G</strong></dt>
+                <dd>Insira seu nano-chip ou ative o eSIM. Faça ligações, envie áudios e navegue na internet de forma 100% autônoma.</dd>
+            </dl>
+        </section>
+
+        <section id="specs">
+            <h2>Poder de Fogo</h2>
+            <p>Engenharia de ponta para garantir que a sua experiência não seja interrompida no meio do dia.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hardware</th>
+                        <th>Tecnologia</th>
+                        <th>O que isso significa para você?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2"><strong>Multimídia</strong></td>
+                        <td>Microcâmera Frontal HD</td>
+                        <td>Videochamadas nativas e desbloqueio facial biométrico ultra-rápido.</td>
+                    </tr>
+                    <tr>
+                        <td>Microfone com Redução de Ruído</td>
+                        <td>Áudio nítido para reuniões online e gravação de áudios mesmo com vento ou trânsito.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><strong>Energia</strong></td>
+                        <td>Bateria de Alta Densidade (800mAh)</td>
+                        <td><strong>Até 48 horas de duração.</strong> Dois dias inteiros de uso sem precisar da tomada.</td>
+                    </tr>
+                    <tr>
+                        <td>Carregamento Magnético Rápido</td>
+                        <td>0 a 100% em apenas 45 minutos.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><strong>Desempenho</strong></td>
+                        <td>Processador Quad-Core & 4GB RAM</td>
+                        <td>Multitarefa fluida. Alterne entre uma videochamada e o mapa sem travamentos.</td>
+                    </tr>
+                    <tr>
+                        <td>Armazenamento de 64GB</td>
+                        <td>Espaço de sobra para aplicativos, fotos e milhares de músicas offline.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="reserva">
+            <h2>Garanta o Seu na Pré-Venda</h2>
+            <p>O primeiro lote esgota em horas. Preencha o formulário para entrar na lista de prioridade e receber atendimento personalizado do nosso time.</p>
+            
+            <form action="cadastro_lista.php" method="post">
+                <fieldset>
+                    <legend>Seus Dados</legend>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Como devemos chamá-lo?">
+                    
+                    <label for="email">E-mail Principal:</label>
+                    <input type="email" id="email" name="email" required placeholder="Seu melhor e-mail para receber o link de compra">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferências do Dispositivo</legend>
+                    <p style="margin-top: 0; color: #a1a1a6;">Qual edição combina mais com o seu estilo?</p>
+                    <input type="radio" id="cor_stealth" name="cor_relogio" value="Stealth Black" checked>
+                    <label for="cor_stealth">Stealth Black (Preto Fosco)</label><br><br>
+                    
+                    <input type="radio" id="cor_titanium" name="cor_relogio" value="Titanium Silver">
+                    <label for="cor_titanium">Titanium Silver (Prata Escovado)</label><br><br>
+
+                    <label for="operadora">Qual operadora de chip você pretende usar?</label>
+                    <input list="operadoras" id="operadora" name="operadora" placeholder="Digite ou selecione...">
+                    <datalist id="operadoras">
+                        <option value="Claro">
+                        <option value="Vivo">
+                        <option value="TIM">
+                    </datalist>
+                    <br><br>
+
+                    <label for="duvida">Alguma dúvida para o nosso time de suporte?</label>
+                    <textarea id="duvida" name="duvida" rows="4" placeholder="Deixe sua pergunta sobre conectividade, apps ou entrega..."></textarea>
+                </fieldset>
+                
+                <button type="submit">Quero Entrar na Lista de Espera</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>AuraSquare Pro &copy; 2026. O futuro no seu pulso.<br>
+        <strong>Landing Page desenvolvida por Thiago Rodrigues</strong></p>
+    </footer>
+
+</body>
+</html>
